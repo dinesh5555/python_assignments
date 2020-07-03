@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[3]:
+
+
+n=int(input("enter number:"))
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+    print("reverse of the number is:",rev)
+
